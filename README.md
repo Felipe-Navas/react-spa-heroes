@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for?
 
 - Quick summary
-  - A React SPA app for heroes
+  - A React SPA app of heroes
 - Version: 1.0
 - [Author](https://www.linkedin.com/in/felipenavaslederhos)
 
