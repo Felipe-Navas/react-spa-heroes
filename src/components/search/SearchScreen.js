@@ -28,7 +28,7 @@ export const SearchScreen = () => {
       <hr />
       <div className="row">
         <div className="col-5">
-          <h4>Search form</h4>
+          <h4>Search a hero by name</h4>
           <hr />
           <form onSubmit={handleSearch}>
             <input
@@ -40,9 +40,11 @@ export const SearchScreen = () => {
               value={searchText}
               onChange={handleInputChange}
             />
-            <button type="submit" className="btn btn-outline-primary mt-1">
-              Find
-            </button>
+            <div class="d-grid gap-2">
+              <button type="submit" className="btn btn-outline-primary mt-1">
+                Find
+              </button>
+            </div>
           </form>
         </div>
         <div className="col-7">
