@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the <SearchScreen /> component should render correctly with default values 1`] = `
+Array [
+  <h1>
+    Search
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search a hero by name
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find a hero"
+          type="text"
+          value=""
+        />
+        <div
+          className="d-grid gap-2"
+        >
+          <button
+            className="btn btn-outline-primary mt-1"
+            type="submit"
+          >
+            Find
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Find a Hero 
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Testing the <SearchScreen /> component should show Batman and the input with the value of the queryString 1`] = `
+Array [
+  <h1>
+    Search
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search a hero by name
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find a hero"
+          type="text"
+          value="batman"
+        />
+        <div
+          className="d-grid gap-2"
+        >
+          <button
+            className="btn btn-outline-primary mt-1"
+            type="submit"
+          >
+            Find
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-4"
+            >
+              <img
+                alt="Batman"
+                className="card-img"
+                src="/assets/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="col-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Batman
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Bruce Wayne
+                </p>
+                <a
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

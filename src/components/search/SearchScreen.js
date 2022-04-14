@@ -40,7 +40,7 @@ export const SearchScreen = () => {
               value={searchText}
               onChange={handleInputChange}
             />
-            <div class="d-grid gap-2">
+            <div className="d-grid gap-2">
               <button type="submit" className="btn btn-outline-primary mt-1">
                 Find
               </button>
