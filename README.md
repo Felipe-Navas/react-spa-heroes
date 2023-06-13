@@ -2,14 +2,14 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for?
+## What is this repository for?
 
 - Quick summary
   - A React SPA app of heroes
 - Version: 1.0
 - [Author](https://www.linkedin.com/in/felipenavaslederhos)
 
-### How do I get set up?
+## How do I get set up?
 
 - Summary of set up
 
@@ -26,24 +26,19 @@ This README would normally document whatever steps are necessary to get your app
   - `yarn test`
   - `npm test`
 
-- Dependencies
-    - "@testing-library/jest-dom": "^5.16.4",
-    - "@testing-library/react": "^12.1.4",
-    - "@testing-library/user-event": "^13.5.0",
-    - "query-string": "^7.1.1",
-    - "react": "^18.0.0",
-    - "react-dom": "^18.0.0",
-    - "react-router-dom": "^6.3.0",
-    - "react-scripts": "5.0.0",
-    - "web-vitals": "^2.1.4"
-
-### Contribution guidelines
+## Contribution guidelines
 
 - Writing tests
 - Code review
 - Other guidelines
 
-### Who do I talk to?
+## Who do I talk to?
 
 - Repo owner or admin
 - Other community or team contact
+
+## Demo
+
+You can explore a live version of React Spa Heroes at the following URL:
+
+https://Felipe-Navas.github.io/react-spa-heroes/
