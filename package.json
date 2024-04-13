@@ -1,8 +1,18 @@
 {
   "name": "react-spa-heroes",
   "version": "1.0.0",
-  "homepage": "https://Felipe-Navas.github.io/react-spa-heroes",
-  "private": true,
+  "description": "A Simple React SPA of heroes",
+  "main": "/src/index.js",
+  "author": "Felipe Navas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/react-spa-heroes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/react-spa-heroes/issues"
+  },
+  "homepage": "https://github.com/Felipe-Navas/react-spa-heroes#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",

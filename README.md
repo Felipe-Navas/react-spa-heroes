@@ -1,44 +1,66 @@
-# README
+# React Spa Heroes
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A Simple React SPA of heroes
 
-## What is this repository for?
+## Description
 
-- Quick summary
-  - A React SPA app of heroes
-- Version: 1.0
-- [Author](https://www.linkedin.com/in/felipenavaslederhos)
+A Simple React SPA of heroes
 
-## How do I get set up?
+## Getting Started
 
-- Summary of set up
+### Dependencies
 
-  - `yarn`
-  - `npm install`
+- `npm`
+- `node`
 
-- How to run the app?
+### Installing
 
-  - `yarn start`
-  - `npm start`
+- Clone the repository and install dependencies:
 
-- How to run the tests?
+```
+git clone https://github.com/Felipe-Navas/react-spa-heroes.git && cd react-spa-heroes && npm install
+```
 
-  - `yarn test`
-  - `npm test`
+### Executing program
 
-## Contribution guidelines
+```
+npm start
+```
 
-- Writing tests
-- Code review
-- Other guidelines
+Preview of the main screen:
 
-## Who do I talk to?
+<img width="350" src="assets/MainScreen.png" alt="Preview of the main screen" />
 
-- Repo owner or admin
-- Other community or team contact
+Preview of the DC screen:
 
-## Demo
+<img width="350" src="assets/DCScreen.png" alt="Preview of the DC screen" />
 
-You can explore a live version of React Spa Heroes at the following URL:
+Preview of the Marvel screen:
 
-https://Felipe-Navas.github.io/react-spa-heroes/
+<img width="350" src="assets/MarvelScreen.png" alt="Preview of the Marvel screen" />
+
+Preview of the Search screen:
+
+<img width="350" src="assets/SearchScreen.png" alt="Preview of the Search screen" />
+
+### Running tests
+
+```
+npm test
+```
+
+## Authors
+
+- [Felipe Navas](https://www.linkedin.com/in/felipenavaslederhos) - [Email](mailto:felipenavas.itec@gmail.com?subject=[GitHub]%react-spa-heroes)
+
+## Contributing
+
+1. Fork it (<https://github.com/Felipe-Navas/react-spa-heroes/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the [MIT License] - see the LICENSE file for details
