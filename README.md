@@ -6,6 +6,12 @@ A Simple React SPA of heroes
 
 A Simple React SPA of heroes
 
+## Demo
+
+You can explore a live version of React Spa Heroes at the following URL:
+
+https://Felipe-Navas.github.io/react-spa-heroes
+
 ## Getting Started
 
 ### Dependencies
